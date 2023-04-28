@@ -8,7 +8,7 @@ pipeline {
             }
             steps {
                 dir('~/my-project') {
-                    git branch: 'develop', url: 'https://github.com/subrahmanyamYedida/pipeline-task.git', singleBranch: true
+                    git branch: 'develop', url: 'https://github.com/subrahmanyamYedida/pipeline-task.git', branch: 'develop'
                 }
             }
         }
